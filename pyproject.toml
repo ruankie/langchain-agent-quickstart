@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "langchain-agent-quickstart"
+version = "0.1.0"
+description = ""
+authors = ["Ruan Pretorius"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.1.8"
+langchain = "^0.2.4"
+langchainhub = "^0.1.20"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
